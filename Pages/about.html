@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{title_page}</title>
+  <link rel="stylesheet" href={style_file}>
+</head>
+<body>
+{header}
+<main>
+  <main>
+    <div class="gallery">
+      {gallery}
+
+    </div>
+    <section class="video-about">
+      {video}
+      <div class="photo-container">
+        {photos}
+
+      </div>
+    </section>
+
+
+  </main>
+
+
+
+</main>
+
+<form method="post" name = "review">
+  <div>
+    <label for="name">Имя:</label>
+    <input type="text" name="name" id="name">
+  </div>
+  <div>
+    <label for="mail">Почта:</label>
+    <input type="text" name="mail" id="mail">
+  </div>
+  <div>
+    <label for="message">Сообщение:</label>
+    <textarea name="message" id="message"></textarea>
+  </div>
+  <button type="submit">Отправить</button>
+</form>
+<div class="review">
+  <h>Отзывы</h>
+  <p>{reviewers}</p>
+</div>
+
+{footer}
+
+</body>
+</html>
