@@ -174,7 +174,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' ) {
     $mail->Host = 'smtp.yandex.ru';
     $mail->SMTPAuth = true;
     $mail->Username = 'novikvlad10';
-    $mail->Password = 'dwnmmwiebnzuwemo';
+    $mail->Password = '';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
     $mail->CharSet = "utf-8";
